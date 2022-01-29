@@ -10,7 +10,7 @@ The experimental evaluation for this project was one where smaller input values 
 
 ## To compile and run this program:
 - First, navigate to the directory where you have the program saved in your command line.
-- type the following command
+- Type the following command
 ```
 prompt> javac isPrime.java
 ```
