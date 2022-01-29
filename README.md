@@ -2,7 +2,7 @@
 This repository consists of a project of a multi-thread Java program that uses 8 threads to find all the prime numbers between 1 and 10^8.
 
 ## General Information and Summary
-The approach taken in this project is that it uses the sieve algorithm and splits its steps equally across the 8 threads.
+The approach taken in this project is that it uses the sieve algorithm and splits its steps equally across the 8 threads, https://www.geeksforgeeks.org/sieve-of-eratosthenes/ is the source of the algorithm. The splitting works on this algorithm because the values do not get more costly as they increase since it only sets an array of boolean of length 10^8 to either true or false, so the steps can be split across the 8 threads.
 
 This program is correct because it uses a very accurate aLGORITHM function and each number is only processed once which guarantees the most efficient processing possible for this specific algorithm. 
 
